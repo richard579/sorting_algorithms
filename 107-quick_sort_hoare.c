@@ -91,5 +91,5 @@ void quick_sort_hoare(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
-	hoarte_sort(array, size, 0, size - 1);
+	hoare_sort(array, size, 0, size - 1);
 }
